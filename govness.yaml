@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "open-civic-labs.accessible-form-generator"
+name: "Accessible form generator"
+type: "plugin"
+version: "3.0.0"
+summary: "Turns a form description into an accessible, multilingual web form that meets WCAG 2.2 AA."
+description: "Agents describe the fields; the plugin returns tested, accessible markup with labels, errors and translations."
+publisher:
+  environment: "open-civic-labs"
+  body: "Open Civic Labs"
+languages: ["en", "es", "fr"]
+license: "MIT"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/accessible-form-generator"
+domains: ["digital-services"]
